@@ -1,0 +1,110 @@
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffbebe;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .container{
+    /* margin: 0 auto; */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+}
+
+
+.card{
+    /* width: 25%; */
+    height: 300px;
+    background-color: #1bffd9;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 10px;
+}
+
+
+.cols-1 > .col{
+    width: 100%;
+}
+
+.cols-2 > .col{
+    width: 50%;
+}
+
+.cols-3 > .col{
+    width: 33.33%;
+}
+
+.cols-4 > .col{
+    width: 25%;
+}
+
+.cols-5 > .col{
+    width: 20%;
+}
+.cols-6 > .col{
+    width: 16.66%;
+}
+.cols-7 > .col{
+    width: 14.28%;
+}
+
+@media (min-width:768px){
+.cols-md-1 > .col{
+    width: 100%;
+}
+
+.cols-md-2 > .col{
+    width: 50%;
+}
+
+.cols-md-3 > .col{
+    width: 33.33%;
+}
+
+.cols-md-4 > .col{
+    width: 25%;
+}
+
+.cols-md-5 > .col{
+    width: 20%;
+}
+.cols-md-6 > .col{
+    width: 16.66%;
+}
+.cols-md-7 > .col{
+    width: 14.28%;
+}
+
+}
+
+@media (min-width:992px){
+.cols-lg-1 > .col{
+    width: 100%;
+}
+
+.cols-lg-2 > .col{
+    width: 50%;
+}
+
+.cols-lg-3 > .col{
+    width: 33.33%;
+}
+
+.cols-lg-4 > .col{
+    width: 25%;
+}
+
+.cols-lg-5 > .col{
+    width: 20%;
+}
+.cols-lg-6 > .col{
+    width: 16.66%;
+}
+.cols-lg-7 > .col{
+    width: 14.28%;
+}
+
+}

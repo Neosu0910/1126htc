@@ -1,0 +1,134 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7b95c0;
+    height: 60px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  
+}
+
+
+.bar{
+    display:none;
+    align-items: center;
+    font-size: 36px;
+}
+
+
+.toggle-second-menu{
+    display: none;
+}
+
+
+.toggle-nav-menu{
+    display: none;
+}
+
+
+.nav-items {
+    font-size: 20px;
+    background-color: #3f5476;
+    color: aliceblue;
+    line-height: 60px;                
+    padding: 0 20px;      
+    position: relative;      
+}
+
+.nav-items:hover .second-menu{
+    display: block;
+}
+
+.second-menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    /* top: 60px;          */
+    left: 0;
+    background-color: #465a91;
+    width: 150px;
+    padding: 10px 0;
+    width: 100%;                   
+}
+
+.second-item{
+    line-height: 1.5;
+    padding: 10px 30px;
+    text-wrap: nowrap;
+}
+
+.second-menu li{
+    padding: 10px 20px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+
+
+/* 也可以寫成768px <= width < 1024px */
+@media (max-width:767px){
+    .bar{
+        display: flex;
+        align-items: center;
+        font-size: 36px;
+    }
+
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        /* gap: 0; */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #c7c9cc;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .second-menu{
+        /* display: block; */
+        position: relative;
+        width: 100%;            
+        padding: 10px 0;
+    }
+    .down{
+        display: block;
+        position: absolute;
+        right: 20px;
+        line-height: 60px;
+        top: 0;
+    }
+    .toggle-second-menu{
+        display: none;
+    }
+
+    .toggle-second-menu:checked + .second-menu{
+        display: block;
+    }
+
+    .toggle-nav-menu:checked + .nav-menu{
+        display: block;
+    }
+    .toggle-nav-menu{
+        display: none;
+    }
+
+}
+    
+
+
+@media (min-width:768px) and (max-width:1023px){
+    .nav-items{
+    background-color: #ffbdff;
+}
+}@media screen and (min-width:1024px) {
+    .nav-items{
+    background-color: #113baf;
+}
+}

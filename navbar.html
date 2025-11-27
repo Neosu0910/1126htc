@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+</head>
+<body>
+    
+    <section class="top">
+        <img src="../下載.jpg" alt="">
+       
+        <label for="aaa" class="bar"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" 
+               class="toggle-nav-menu"
+               id="aaa"
+            />
+        
+        <ul class="nav-menu">
+            <li class="nav-items" >
+                找飯店 
+                <label for="hotel" class="down">
+                 <i class="fa-solid fa-chevron-down "></i>
+                </label>
+                <input type="radio" 
+                       name="find"
+                       id="hotel"
+                       class="toggle-second-menu"/>
+                <ul class="second-menu">
+                     <li class="second-item">北部</li>
+                     <li class="second-item">中部</li>
+                     <li class="second-item">南部</li>
+                </ul>
+            </li>
+            <li class="nav-items">
+                找機票 
+                <label for="ticket" class="down">
+                 <i class="fa-solid fa-chevron-down "></i>
+                </label>
+                <input type="radio" 
+                       name="find" 
+                       id="ticket"
+                       class="toggle-second-menu"/>
+                
+                <ul class="second-menu">    
+                    <li class="second-item">Trip.com</li>
+                    <li class="second-item">Skyscanner</li>
+                    <li class="second-item">Cathay</li>
+                </ul>
+            </li>
+            <li class="nav-items">
+                找景點 
+                <label for="spot" class="down">
+                 <i class="fa-solid fa-chevron-down "></i>
+                </label>
+                <input type="radio" 
+                       name="find" 
+                       id="spot"
+                       class="toggle-second-menu"/>
+                
+                <ul class="second-menu">
+                    <li class="second-item">包車遊玩</li>
+                    <li class="second-item">路人指引</li>
+                    <li class="second-item">隨便亂走</li>
+                    <li class="second-item">KK園區</li>
+                    <li class="second-item">機場過夜</li>
+                </ul>
+            </li>
+            <li class="nav-items">
+                找美食
+                <label for="food" class="down">
+                 <i class="fa-solid fa-chevron-down "></i>
+                </label>
+                <input type="radio" 
+                       name="find" 
+                       id="food"
+                       class="toggle-second-menu"/>
+                
+                <ul class="second-menu">
+                    <li class="second-item">印度美食</li>
+                    <li class="second-item">輕度</li>
+                    <li class="second-item">中度</li>
+                    <li class="second-item">重度</li>
+                    <li class="second-item">印度</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </section>
+    
+</body>
+</html>
