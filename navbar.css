@@ -127,7 +127,8 @@
     .nav-items{
     background-color: #ffbdff;
 }
-}@media screen and (min-width:1024px) {
+}
+@media (min-width:1024px) {
     .nav-items{
     background-color: #113baf;
 }
